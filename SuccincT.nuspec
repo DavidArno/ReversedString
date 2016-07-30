@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/DavidArno/ReversedString/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/DavidArno/ReversedString</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DavidArno/ReversedString/master/reverse.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2016, David Arno</copyright>
+    <tags>Reverse string, ReverseString, StringReverse</tags>
+  </metadata>
+</package>

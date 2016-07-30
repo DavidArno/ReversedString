@@ -1,0 +1,7 @@
+/packages/
+/bin/
+/obj/
+/nuget-pack.bat
+*.nupkg
+*.v2.ncrunchproject
+*.v2.ncrunchsolution
