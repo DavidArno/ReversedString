@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ReversedString")]
-[assembly: AssemblyDescription("String extension method that creates a reversed version.")]
+[assembly: AssemblyTitle("ReversedStringTests")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("David Arno")]
-[assembly: AssemblyProduct("ReversedString")]
-[assembly: AssemblyCopyright("Copyright ©  2016, David Arno")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ReversedStringTests")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cd9e4c82-ede9-447e-b4f1-74500080c1e5")]
+[assembly: Guid("ee38d9ab-5ea1-4435-9dfc-835ce4c10092")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -5,3 +5,5 @@
 *.nupkg
 *.v2.ncrunchproject
 *.v2.ncrunchsolution
+*.ncrunchsolution.user
+*.sln.tddstud10.user

@@ -11,7 +11,7 @@
     <iconUrl>https://raw.githubusercontent.com/DavidArno/ReversedString/master/reverse.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial release.</releaseNotes>
+    <releaseNotes>Restructed into separate projects to remove main lib's dependency on NUnit.</releaseNotes>
     <copyright>Copyright 2016, David Arno</copyright>
     <tags>Reverse string, ReverseString, StringReverse</tags>
   </metadata>

@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using ReversedString;
 
-namespace ReversedString
+namespace ReversedStringTests
 {
     [TestFixture]
     public class ReverseStringTests
@@ -27,6 +28,13 @@ namespace ReversedString
         {
             var actual = "Testing «ταБЬℓσ»: யாமறிந்த ಬಾ ಇಲ್ಲಿ ಸಂಭವಿಸು ಇಂದೆನ್ನ ಹೃದಯದಲಿ ﻿काचं शक्नोम्यत्तुम्".Reverse();
             Assert.AreEqual("्मुत्तय्मोन्कश ंचाक﻿ ಿಲದಯದೃಹ ನ್ನೆದಂಇ ುಸಿವಭಂಸ ಿಲ್ಲಇ ಾಬ த்நிறமாய :»σℓЬБατ« gnitseT", actual);
+        }
+
+        [Test]
+        public void AeLigatureWhenReversed_BasedOnUnicodeCharactersNotLetters()
+        {
+            var actual = "æon".Reverse();
+            Assert.AreEqual("noæ", actual);
         }
     }
 }
